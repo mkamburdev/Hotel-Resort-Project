@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.slider {
+  width: 100%;
+  height: 70rem;
+  overflow: hidden;
+}
+
+.container {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 70rem;
+	animation: animate 40s infinite;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: background-image 2s ease-in-out;
+}
+
+ @keyframes animate {
+	0%, 24% {
+	  background-image: url(./images/slider1.webp);
+	}
+	25%, 49% {
+	  background-image: url(./images/slider2.webp);
+	}
+	50%, 74% {
+	  background-image: url(./images/slider3.webp);
+	}
+	75%, 99% {
+	  background-image: url(./images/slider4.webp);
+	}
+	100% {
+	  background-image: url(./images/slider1.webp);
+	}
+ }
+
+.outer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 70rem;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.details {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  padding: 0 1.2rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.details h1 {
+  position: absolute;
+  left: 0%;
+  top: 30%;
+  padding: 0 1.2rem;
+  font-size: 6em;
+  font-weight: 400;
+  font-family: "Lora", serif;
+  color: #eadac5;
+  line-height: 1.4;
+}
+
+.details h2 {
+  position: absolute;
+  left: 0%;
+  top: 70%;
+  padding: 0 1.2rem;
+  font-size: 2em;
+  font-weight: 400;
+  font-family: "Cabin", sans-serif;
+  color: #efede0;
+  line-height: 1.4;
+}
+
+.button {
+  position: absolute;
+  left: 0%;
+  top: 83%;
+  padding: 0 1.2rem;
+}
+
+button {
+  background: #a3727d;
+  color: #fff;
+  padding: 1.6rem 2.5rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid #eadac5;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .details h2 {
+    top: 57%;
+  }
+  .button {
+    top: 65%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .details h1 {
+    font-size: 8em;
+    width: 55rem;
+    line-height: 1.1;
+  }
+  .details h2 {
+    font-size: 2.5em;
+    width: 55rem;
+    top: 70%;
+  }
+  .button {
+    top: 83%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .details h1 {
+    left: 10%;
+  }
+  .details h2 {
+    left: 10%;
+  }
+  .button {
+    left: 10%;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .details h1 {
+    left: 20%;
+  }
+  .details h2 {
+    left: 20%;
+  }
+  .button {
+    left: 20%;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .details h1 {
+    left: 30%;
+  }
+  .details h2 {
+    left: 30%;
+  }
+  .button {
+    left: 30%;
+  }
+}
