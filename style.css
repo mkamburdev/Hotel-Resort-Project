@@ -1,3 +1,10 @@
+:root{
+  --color-white: #fff;
+  --color-black: #000;
+  --color-orange: rgb(221, 99, 42);
+ 
+}
+
 body {
 
     margin: 0 auto;
@@ -7,15 +14,12 @@ body {
 }
 
 
-
+/*----------Abschnitt Animation Text----------*/
 .animated_text span {
     
-   
     position: absolute;
-  
     opacity: 0;
-    
-    animation: fadeInOut 6s ease-in infinite;
+    animation: background_text 6s infinite;
   }
   
   .animated_text span:nth-child(1) {
@@ -36,13 +40,24 @@ margin-left: 1.5rem;
     margin-top: -5rem;
   }
   
-  @keyframes fadeInOut {
-    0%,100% { opacity: 0; }
-    30% { opacity: 1; }
-    40% { opacity: 0; }
-    
+   /*----------Abschnitt Räume-Überschirft----------*/
+
+  .our_acc, .rooms_text{
+
+
+    text-align: center;
   }
-  /* Abschnitt Räume  */
+  .our_acc{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: 600;
+    color: var(--color-orange);
+  }
+  .rooms_text{
+
+    font-size: 3rem;
+    margin: 1rem;
+  }
+  /*----------Abschnitt Räume-Bilder----------*/
  .rooms {
 display: flex;
 justify-content: start;
@@ -50,7 +65,7 @@ align-items: center;
 flex-wrap: wrap;
 margin :0 auto;
   width: 95%;
-  height: 100vh;
+  height: 37rem;
   
  gap: 1rem;
  }
@@ -69,24 +84,31 @@ margin :0 auto;
    
 
 }
-.our_acc, .rooms_text{
 
-
-  text-align: center;
-}
 .rooms_text{
   
 }
 
+ /*----------Abschnitt Keyframes----------*/
+ @keyframes background_text {
+  0%,100% { opacity: 0; }
+  30% { opacity: 1; }
+  40% { opacity: 0; }
+  
+}
+
+
+/*----------Abschnitt Media Queries----------*/
+
 
 @media screen and (min-width: 769px) {
     .background {
-        
+        color: var(--color-white);
         display: flex;
         position: relative;
         justify-content: center;
         align-items: center;
-        
+        margin-bottom: 3rem;
         font-size: 6rem;
         background-image: url('images/hintergrund_banner.jpg');
         background-repeat: no-repeat;
@@ -100,7 +122,7 @@ margin :0 auto;
 
 
   }
-  /* Abschnitt Räume  */
+  
   @media screen and (min-width: 992px) {
     .rooms {
  
