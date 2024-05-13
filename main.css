@@ -1,6 +1,8 @@
+/* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap");
 
+/* GLOBAL */
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +10,6 @@
 }
 
 /* SLIDER */
-
 .header-slider,
 .header-container,
 .header-outer {
@@ -126,8 +127,7 @@
   width: 100%;
 }
 
-/* ANIMATION */
-
+/* ANIMATIONS */
 @keyframes animate {
   0%,
   20% {
@@ -156,21 +156,12 @@
 }
 
 /* RESPONSIVE */
-
 @media screen and (min-width: 575px) {
-  .about-us-photos {
-    flex-wrap: nowrap;
-  }
   .about-us-photos img:nth-child(1) {
-    width: 50%;
-    height: 100%;
-    padding-right: 0.5rem;
+    object-fit: contain;
   }
-
   .about-us-photos img:nth-child(2) {
-    width: 50%;
-    height: 100%;
-    padding-left: 0.5rem;
+    object-fit: contain;
   }
 }
 
@@ -189,6 +180,12 @@
   .about-us-text {
     font-size: 1.2rem;
   }
+  .about-us-photos img:nth-child(1),
+  .about-us-photos img:nth-child(2) {
+    width: 50%;
+    height: 100%;
+    padding: 0 0.5rem;
+  }
 }
 
 @media screen and (min-width: 1008px) {
@@ -200,20 +197,17 @@
   .header-details h1 {
     width: 70%;
   }
-
   .about-us {
     display: flex;
     width: 63rem;
     margin: 6rem auto;
   }
-
   .about-us-titles {
     width: 80%;
   }
   .about-us-text {
     width: 80%;
   }
-
   .about-us-photos {
     display: flex;
   }
