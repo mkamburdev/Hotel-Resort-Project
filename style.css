@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-link {
+  color: black;
+  justify-content: end;
+}
+.logo {
+  color: black;
+}
+.footer-section {
+  background-color: #222736;
+  display: block;
+  padding: 50px 0;
+  text-align: center;
+}
+.footer-section .footer-text {
+  padding: 80px 0 30px;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+@media (min-width: 992px) {
+  .col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
