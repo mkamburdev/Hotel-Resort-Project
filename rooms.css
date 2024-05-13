@@ -20,6 +20,14 @@ body {
   animation: background_text 6s infinite;
 }
 
+.room1:hover .rooms_inlinetext,
+.room2:hover .rooms_inlinetext,
+.room3:hover .rooms_inlinetext,
+.room4:hover .rooms_inlinetext{
+  
+  animation: rooms_text 1s ease-in-out forwards;
+}
+
 .animated_text span:nth-child(1) {
   animation-delay: 0s;
   margin-left: 1.5rem;
@@ -81,12 +89,13 @@ body {
     url(images/hintergrund_banner.jpg);
   background-position: center;
   background-size: cover;
+  
   display: grid;
   align-items: center;
   flex-wrap: wrap;
   flex-grow: 1;
-
-  width: 22.3rem;
+overflow: hidden;
+  width: 22.79rem;
   height: 37rem;
 }
 
@@ -124,7 +133,11 @@ body {
   display: grid;
   flex-shrink: 1;
 }
+.capacity{
+  display: grid;
+  flex-shrink: 1;
 
+}
 .td {
   padding: 0 3rem 1rem 0;
 }
@@ -153,10 +166,22 @@ body {
   }
 }
 
+@keyframes rooms_text {
+  0% {
+    transform: translateY(100%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 /*----------Abschnitt Media Queries----------*/
 
 @media screen and (min-width: 769px) {
   .background {
+  
     color: var(--color-white);
     display: flex;
     position: relative;
@@ -171,23 +196,25 @@ body {
     width: 100vw;
     height: 50vh;
   }
+  .rooms_inlinetext {
+    
+    transform: translateY(24rem);
+    
+  }
 }
 
 @media screen and (min-width: 992px) {
   .rooms_inlinetext{
     font-size:0.9rem;
-  
    display: inline;
     width: 14vw;
     
     padding: 0;
   }
-  .table{
-   
+  .td{
+    padding-right: 2rem;
   }
-  .room_name {
-   
-  }
+  
   .rooms {
     width: 100%;
     grid-template-columns: repeat(4, 1fr);
@@ -196,5 +223,11 @@ body {
   }
   .room1, .room2, .room3, .room4 {
     width: auto;
+    
+  }
+}
+@media screen and (min-width: 1200px){
+  .td {
+    padding: 0 3rem 1rem 0;
   }
 }
