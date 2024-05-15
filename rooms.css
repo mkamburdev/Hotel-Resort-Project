@@ -103,7 +103,7 @@ overflow: hidden;
 
 .rooms_inlinetext {
 
-  font-family: "Lora", serif;
+  font-family: "Cabin", sans-serif;
   display: grid;
   flex-direction: column;
   justify-content: start;
@@ -115,6 +115,7 @@ overflow: hidden;
   color: var(--color-white);
 }
 .room_name {
+  color: #F9F5E7;
   font-size: 2rem;
   font-weight: 500;
 }
@@ -123,6 +124,7 @@ overflow: hidden;
   font-weight: 500;
 }
 .price {
+  color: #F1DEC9;
   font-size: 2.5rem;
   font-weight: 700;
 }
@@ -140,6 +142,19 @@ overflow: hidden;
 }
 .td {
   padding: 0 3rem 1rem 0;
+}
+.details{
+  letter-spacing: 2px;
+  font-size: small;
+  font-family: "Cabin", sans-serif;
+  font-weight: 500;
+  margin-top: 2rem;
+  color: #FFF8EA;
+  text-decoration: none;
+  padding-bottom: 4px;
+  border-bottom: 1.9px solid #FFF8EA;
+  width: max-content;
+  
 }
 
 /*----------Abschnitt Keyframes----------*/
@@ -189,10 +204,11 @@ overflow: hidden;
   }
   .rooms_inlinetext {
     
-    transform: translateY(24rem);
+    transform: translateY(19rem);
     
 
   }
+  
   @keyframes rooms_text {
     0% {
       transform: translateY(100%);
@@ -216,6 +232,13 @@ overflow: hidden;
   .td{
     padding-right: 2rem;
   }
+  .rooms_inlinetext{
+    transform: translateY(20rem);
+  }
+  .room2 .rooms_inlinetext{
+   
+    transform: translateY(19rem);
+  }
   
   .rooms {
     width: 100%;
@@ -227,9 +250,22 @@ overflow: hidden;
     width: auto;
     
   }
+  
+}
+@media screen and (min-width: 1131px) {
+
+  .room2 .rooms_inlinetext {
+    transform: translateY(20rem);
+  }
+  
+  
 }
 @media screen and (min-width: 1200px){
   .td {
     padding: 0 3rem 1rem 0;
   }
+
+.room2 .rooms_inlinetext {
+  transform: translateY(18.rem);
+}
 }
