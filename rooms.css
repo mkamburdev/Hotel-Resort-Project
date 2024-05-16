@@ -44,7 +44,7 @@ body {
   margin-top: -5rem;
 }
 .our_and_yourhome_text {
-  animation: our_text 6s ease-in-out forwards;
+  animation: our_text 5s ease-in-out forwards;
 }
 
 /*----------Abschnitt Räume-Überschirft----------*/
@@ -231,6 +231,10 @@ body {
   @keyframes rooms_text {
     0% {
       transform: translateY(100%);
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(0);
       opacity: 1;
     }
     100% {
