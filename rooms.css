@@ -81,11 +81,6 @@ body {
 .room3,
 .room4 {
   z-index: 1;
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0),
-      rgba(0, 0, 0, 0.767)
-    ),
-    url(images/hintergrund_banner.jpg);
   background-position: center;
   background-size: cover;
 
@@ -96,7 +91,38 @@ body {
   overflow: hidden;
   width: 22.79rem;
   height: 37rem;
+
 }
+.room1{
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.007),
+    rgba(0, 0, 0, 0.438)
+  ),
+  url(images/garden_suite.webp);
+}
+.room2{
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0),
+    rgba(0, 0, 0, 0.767)
+  ),
+  url(images/Premium_king.webp);
+}
+
+.room3{
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0),
+    rgba(0, 0, 0, 0.521)
+  ),
+  url(images/Standart_room.webp);
+}
+.room4{
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0),
+    rgba(0, 0, 0, 0.445)
+  ),
+  url(images/family_room.webp);
+}
+
 
 /*----------Abschnitt Räume-Inline-Text----------*/
 
@@ -188,7 +214,7 @@ body {
     align-items: center;
     margin-bottom: 3rem;
     font-size: 6rem;
-    background-image: url("images/hintergrund_banner.jpg");
+    background-image: url("images/hintergrund_banner.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -221,7 +247,7 @@ body {
 
 @media screen and (min-width: 992px) {
   .rooms_inlinetext {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     display: inline;
     width: 14vw;
     
