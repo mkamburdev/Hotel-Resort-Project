@@ -13,7 +13,22 @@
 .services-title {
   text-align: center;
   margin: 3rem auto;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideIn 0.5s ease-in-out forwards;
 }
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .services-title h1 {
   font-family: "Cabin", serif;
   font-size: 0.9rem;
