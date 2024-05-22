@@ -12,10 +12,11 @@
 /* SERVICES STYLES */
 .services-title {
   text-align: center;
-  margin: 3rem auto;
+  margin: 0 auto;
   opacity: 0;
   transform: translateY(20px);
   animation: slideIn 0.5s ease-in-out forwards;
+  margin-top: 5rem;
 }
 
 @keyframes slideIn {
@@ -118,5 +119,7 @@
   .services-cards {
     width: 75rem;
     margin: 0 auto;
-  }
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+}
 }
