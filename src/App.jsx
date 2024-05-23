@@ -3,6 +3,9 @@ import './App.css'
 import Header from './components/Header'
 import AboutUs from './components/AboutUs'
 import Services from './components/Services'
+import Gallery from './components/Gallery'
+import ParallaxRooms from './components/ParallaxRooms'
+
 
 function App() {
 
@@ -10,7 +13,9 @@ function App() {
     <>
       <Header />
       <AboutUs />
+      <ParallaxRooms/>
       <Services />
+      <Gallery/>
     </>
   )
 }
