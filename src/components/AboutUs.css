@@ -57,10 +57,6 @@
   max-height: 22rem;
 }
 
-.about-us-photos img:hover {
-  filter: grayscale(100%);
-}
-
 .about-us-photos img:nth-child(1) {
   margin-bottom: 2rem;
   width: 100%;
@@ -116,6 +112,17 @@
 	  height: 20rem;
 	  object-fit: cover;
 	}
+ }
+
+@media screen and (min-width: 1024px) {
+  .about-us-photos img {
+    filter: grayscale(100%)
+  }
+  
+  .about-us-photos img:hover {
+    filter: grayscale(0%);
+    transition: filter 0.3s ease-in-out;
+  }
  }
  
  @media screen and (min-width: 1256px) {
