@@ -1,6 +1,5 @@
 .navbar {
   height: 6.2rem;
-  margin: 0 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,7 +37,6 @@
   background: rgba(255, 255, 255, 0.45);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
 }
 
 @keyframes openMenu {
@@ -111,8 +109,15 @@
   align-items: center;
 }
 
-i {
-  cursor: pointer;
+.mobile-contact i {
+  margin: 0 0.5rem;
+}
+
+.nav-tel,
+.nav-email,
+.nav-right,
+.nav-menu {
+  display: none;
 }
 
 @media screen and (min-width: 1024px) {
@@ -122,5 +127,133 @@ i {
 
   #mobile-container {
     display: none;
+  }
+
+  .nav-tel,
+  .nav-email,
+  .nav-right,
+  .nav-menu {
+    display: block;
+  }
+
+  .navbar {
+    height: 8.8rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-areas:
+      "nav-tel nav-email nav-right nav-right nav-right"
+      "nav-logo nav-logo nav-menu nav-menu nav-menu";
+  }
+
+  .nav-tel {
+    grid-area: nav-tel;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.1rem solid #ebebeb;
+    border-left: 0.1rem solid #ebebeb;
+    font-size: 1rem;
+  }
+
+  .nav-tel i,
+  .nav-email i {
+    margin: 0 0.3rem;
+    font-size: 0.8rem;
+    color: #a3727d;
+  }
+
+  .nav-email {
+    grid-area: nav-email;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.1rem solid #ebebeb;
+    border-left: 0.1rem solid #ebebeb;
+    font-size: 1rem;
+  }
+  .nav-logo {
+    grid-area: nav-logo;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .nav-logo img{
+    cursor: pointer;
+  }
+
+  .nav-menu {
+    grid-area: nav-menu;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+  }
+
+  .nav-menu ul {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-right {
+    grid-area: nav-right;
+    border-left: 0.1rem solid #ebebeb;
+    border-bottom: 0.1rem solid #ebebeb;
+    border-right: 0.1rem solid #ebebeb;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: #f8ead8;
+  }
+  .nav-right i {
+    margin: 0 0.5rem;
+    font-size: 1rem;
+  }
+
+  .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+  }
+
+  .social i {
+  cursor: pointer;
+}
+
+  .location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+  }
+
+  .nav-menu li {
+    margin: 0 1rem;
+    list-style: none;
+  }
+
+  .nav-menu a {
+    text-decoration: none;
+    color: #221f1f;
+  }
+
+  .nav-menu ul li:first-child {
+    border-bottom: 0.13rem solid #a3727d;
+  }
+
+  .nav-menu a:hover {
+    border-bottom: 0.13rem solid #a3727d;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .navbar {
+    width: 75rem;
+    margin: 0 auto;
   }
 }
