@@ -16,8 +16,8 @@ const Header = () => {
           <img src={slider4} className="header-slide slide4" alt="Slider 4" />
           <div className="header-shadow">
             <div className="header-details">
-              <h1>Willkommen im Hayadmu Hotel</h1>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit.</p>
+              <h1>Welcome to Hayadmu Hotel</h1>
+              <p>Our hotel offers top-notch amenities, spacious rooms, and exceptional service to make your stay unforgettable.</p>
               <button>Book Now</button>
             </div>
           </div>
