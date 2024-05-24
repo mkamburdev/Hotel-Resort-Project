@@ -28,7 +28,7 @@
 
 .mobile-menu-container {
   width: 19.7rem;
-  height: 100svh;
+  height: 100%;
   display: none;
   position: fixed;
   top: 0;
