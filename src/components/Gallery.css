@@ -1,5 +1,6 @@
 :root{
     --color-orange: rgb(221, 99, 42);
+    --color-white:#f6f6f6;
 }
 .gallerytext{
     margin: 1rem auto;
@@ -17,7 +18,7 @@
 }
 
 .gallery{
-    background-color: #f6f6f6;
+    background-color: var(--color-white);
     width: 100%;
     height: 100%;
 display: flex;

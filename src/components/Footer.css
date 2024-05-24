@@ -1,0 +1,68 @@
+:root{
+    --color-dark-blue:#212529;
+    --color-grey:#AAAAB3;
+    --color-red-orange:#A7727d;
+
+}
+
+.footer{
+    margin-top: 2rem;
+    margin-bottom: 0;
+  background-color:var(--color-dark-blue) ;
+  color: var(--color-grey);
+  width: 100%;
+  height: 37rem;
+    
+
+}
+
+
+.logo-bild{
+ width: 24rem;
+ margin-top: 3rem ;
+}  
+.footer-container_1{
+    margin: 1rem;
+    margin-left: 3.2rem;
+}
+.footer-container_2,.footer-container_3{
+    
+    margin: 1.5rem;
+    margin-left: 3.2rem;
+}
+.button-icon{
+width: 3rem;
+height: 3rem;
+border-radius: 50%;
+margin-top: 1.5rem;
+background-color: transparent;
+border: var(--color-grey) solid 1px;
+color: var(--color-white);  
+
+
+ }
+.button-icon2{
+    margin-left:0.5rem
+}
+
+.land{
+    padding-left: 1.2rem;
+}
+
+.contacttext,.newlatesttext{
+    color:var(--color-red-orange);
+    margin-bottom: 1rem;
+}
+.footer-container_2 p{
+    margin: 0.5rem auto;
+}
+#email{
+    margin: 2rem auto;
+height: 3rem;
+width: 80%;
+}
+.email{
+    border-style: none;
+height: 3rem;
+width: 3rem;
+} 
