@@ -9,10 +9,10 @@ const AboutUs = () => {
       <div className="about-us-content">
         <div className="about-us-titles">
           <h2>About Us</h2>
-          <h3>Hayadmu <br /> Hotel & Resort</h3>
+          <h3>Hayadmu Hotel & Resort</h3>
         </div>
         <div className="about-us-text">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ratione ab voluptas magnam asperiores cumque quas illum sunt recusandae tenetur voluptatum enim consequatur, optio vel?</p>
+          <p>Welcome to Hayadmu Hotel & Resort! We are dedicated to providing you with an unforgettable experience during your stay. Our luxurious accommodations, exceptional service, and breathtaking views will make your visit truly memorable.</p>
         </div>
       </div>
       <div className="about-us-photos">

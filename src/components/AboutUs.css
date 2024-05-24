@@ -46,6 +46,10 @@
   padding-bottom: 2rem;
 }
 
+.about-us-text p {
+  font-size: 1rem;
+}
+
 .about-us-photos {
   margin: 0 1.5rem;
   display: flex;
