@@ -34,7 +34,7 @@ function Footer() {
             <i className="contact-icons">
               <BsTelephone />
              </i>
-             (+49 30) 321 80 00
+             (+505) 733 6053
           </p>
           <p>
             <i className="contact-icons">
@@ -46,7 +46,7 @@ function Footer() {
             <i className="contact-icons">
               <CiLocationOn />
             </i>
-            Lindenerstr 5,12345 Berlin <p className="land">Deutschland</p>{" "}
+            1645 Cooks Mine Road, 87325 Tohatchi <p className="land">New Mexico</p>{" "}
           </p>
         </div>
         <div className="footer-container_3">
