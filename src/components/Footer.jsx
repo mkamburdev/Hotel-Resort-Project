@@ -13,8 +13,9 @@ function Footer() {
     <>
       
       <footer className="footer">
-        <img className="logo-bild" src={logo} alt="logo-bild" />
+        
         <div className="footer-container_1">
+        <img className="logo-bild" src={logo} alt="logo-bild" />
           <p>Relax in a Serene and Tranquil Paradise</p>
           
             <i className="facebook-icon">

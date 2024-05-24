@@ -19,6 +19,7 @@
 
 
 .logo-bild{
+    margin-left: -3rem;
  width: 22rem;
  margin-top: 3rem ;
 }  
@@ -89,4 +90,25 @@
 .contact-icons{
     padding-right: 1rem;
     color: var(--color-red-orange);
+}
+@media screen and (min-width: 1024px){
+    .footer{
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    .logo-bild{
+       
+        margin-top: 0;
+    }
+    .footer-container_3{
+        margin-top: 0;
+        
+    }
+    .newlatesttext{
+        margin-top: -0.5rem;
+    }
+   
 }
