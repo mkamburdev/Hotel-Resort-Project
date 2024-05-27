@@ -75,13 +75,13 @@ function NavBar() {
                 <i>
                   <FontAwesomeIcon icon={faPhone} size="fa-2xl" />
                 </i>
-                0163 210 0000
+                (+505) 733 6053
               </div>
               <div className="mobile-mail">
                 <i>
                   <FontAwesomeIcon icon={faEnvelope} size="fa-2xl" />
                 </i>
-                hayadmu@example.com
+                hayadmu@gmail.com
               </div>
             </div>
           </div>
@@ -95,13 +95,13 @@ function NavBar() {
           <i>
             <FontAwesomeIcon icon={faPhone} size="fa-2xl" />
           </i>
-          0163 210 0000
+          (+505) 733 6053
         </div>
         <div className="nav-email">
           <i>
             <FontAwesomeIcon icon={faEnvelope} size="fa-2xl" />
           </i>
-          hayadmu@example.com
+          hayadmu@gmail.com
         </div>
 
         <div className="nav-right">
