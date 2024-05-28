@@ -10,7 +10,7 @@
 
 <div align="center">
   
-[**Screenshots**](#screenshots) || [**Features**](#features) || [**Technologies**](#technologies) || [**Color Reference**](#color-reference) || [**Fonts**](#fonts) || [**Photos**](#photos) || [**What We learned**](#what-we-learned) || [**Demo**](#demo) || [**Contributions**](#contributions)
+[**Screenshots**](#screenshots) | [**Features**](#features) | [**Technologies**](#technologies) | [**Color Reference**](#color-reference) | [**Fonts**](#fonts) | [**Photos**](#photos) | [**What We learned**](#what-we-learned) | [**Demo**](#demo) | [**Contributions**](#contributions)
 
 </div>
 
@@ -23,7 +23,7 @@ In this project, our goal was to create a modern, user-friendly, and informative
 
 ## Screenshots
 
-<img src ="./src/images/screenshot.png" width="800px" alt="Project Screenshot">
+<img src ="./src/images/screenshot.png" alt="Project Screenshot">
 
 ## Features
 
@@ -77,21 +77,12 @@ In this project, our goal was to create a modern, user-friendly, and informative
 
 ## Contributions
 
-<div style="display: flex; justify-content: flex-start; align-items: center;">
-<div>
-<img src="./src/images/AdemTozlu.png" width="100px" alt="Hotel Resort Project" />
-
-<div style="display: flex; justify-content: center; align-items: center; gap: 0.5rem;">
-<a href="https://github.com/Adem-Tozlu/" target="blank"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="25px"></a>
-<a href="https://www.linkedin.com/in/adem-tozlu-8906b52a5/" target="blank"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="25px"></a>
-</div>
-</div>
-
+<a href="https://github.com/mkamburdev/Hotel-Resort-Project/graphs/contributors"><img src="./src/images/AdemTozlu.png" width="75px" alt="Hotel Resort Project" align="left" />
+<img src="./src/images/Muhammed.png" width="75px" alt="Hotel Resort Project" align="center" /></a>
 
 <div>
-<img src="./src/images/Muhammed.png" width="100px" alt="Hotel Resort Project" />
-
-<div style="display: flex; justify-content: center; align-items: center; gap: 0.5rem;">
-<a href="https://github.com/mkamburdev/" target="blank"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="25px"></a>
-<a href="https://www.linkedin.com/in/mkambur/" target="blank"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="25px"></a>
-</div></div>
+     <a href="https://github.com/Adem-Tozlu/" target="blank"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="23px"></a>
+<a href="https://www.linkedin.com/in/adem-tozlu-8906b52a5/" target="blank"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="23px"></a>
+                  <a href="https://github.com/mkamburdev/" target="blank"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="23px"></a>
+<a href="https://www.linkedin.com/in/mkambur/" target="blank"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="23px"></a>
+</div>
