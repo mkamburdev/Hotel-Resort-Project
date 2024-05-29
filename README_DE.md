@@ -81,8 +81,8 @@ Unser Ziel bei diesem Projekt war es, eine moderne, benutzerfreundliche und info
 <img src="./src/images/Muhammed.png" width="75px" alt="Hotel Resort Project" align="center" /></a>
 
 <div>
-     <a href="https://github.com/Adem-Tozlu/" target="blank"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="23px"></a>
-<a href="https://www.linkedin.com/in/adem-tozlu-8906b52a5/" target="blank"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="23px"></a>
-                  <a href="https://github.com/mkamburdev/" target="blank"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="23px"></a>
-<a href="https://www.linkedin.com/in/mkambur/" target="blank"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="23px"></a>
+     <a href="https://github.com/Adem-Tozlu/" target="blank"><img src="./src/images/github.png" width="23px"></a>
+<a href="https://www.linkedin.com/in/adem-tozlu-8906b52a5/" target="blank"><img src="./src/images/linkedin.png" width="23px"></a>
+                  <a href="https://github.com/mkamburdev/" target="blank"><img src="./src/images/github.png" width="23px"></a>
+<a href="https://www.linkedin.com/in/mkambur/" target="blank"><img src="./src/images/linkedin.png" width="23px"></a>
 </div>
