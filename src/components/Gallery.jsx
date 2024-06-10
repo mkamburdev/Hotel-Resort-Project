@@ -7,7 +7,7 @@ import "./Gallery.css"
 function Gallery() {
   return (
     <>
-      <div className="gallery">
+      <div id='gallery' className="gallery">
         <h3 className="gallerytext">GALLERY</h3>
         <p className="gallery_outtext">Our Latest Photos</p>
         <section className="our_images">

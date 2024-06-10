@@ -27,7 +27,9 @@ function NavBar() {
     <div>
       <section className="navbar">
         <div className="nav-logo">
-          <a href="/index.html"><img src={logo} alt="Logo" className="logo" /></a>
+          <a href="/index.html">
+            <img src={logo} alt="Logo" className="logo" />
+          </a>
         </div>
         <div
           id="mobile-container"
@@ -43,16 +45,16 @@ function NavBar() {
                   <a href="#">Home</a>
                 </li>
                 <li>
-                  <a href="#">Rooms</a>
+                  <a href="#about">About Us</a>
                 </li>
                 <li>
-                  <a href="#">About</a>
+                  <a href="#rooms">Rooms</a>
                 </li>
                 <li>
-                  <a href="#">Services</a>
+                  <a href="#services">Services</a>
                 </li>
                 <li>
-                  <a href="#">Contact</a>
+                  <a href="#gallery">Gallery</a>
                 </li>
               </ul>
             </div>
@@ -132,16 +134,16 @@ function NavBar() {
               <a href="#">Home</a>
             </li>
             <li>
-              <a href="#">Rooms</a>
+              <a href="#about">About Us</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="#rooms">Rooms</a>
             </li>
             <li>
-              <a href="#">Services</a>
+              <a href="#services">Services</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#gallery">Gallery</a>
             </li>
           </ul>
         </div>

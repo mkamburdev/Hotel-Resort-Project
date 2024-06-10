@@ -242,10 +242,6 @@
     color: #221f1f;
   }
 
-  .nav-menu ul li:first-child {
-    border-bottom: 0.13rem solid #a3727d;
-  }
-
   .nav-menu a:hover {
     border-bottom: 0.13rem solid #a3727d;
   }

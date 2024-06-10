@@ -6,7 +6,7 @@ import { faBed, faUtensils, faSpa, faCalendar, faHiking, faHeadset } from '@fort
 const Services = () => {
   return (
     <div>
-      <section class="services">
+      <section id="services" class="services">
         <div class="services-title">
           <h1>Our Services</h1>
           <h2>Discover What We Offer</h2>

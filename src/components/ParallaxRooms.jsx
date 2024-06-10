@@ -15,7 +15,7 @@ function ParallaxRooms() {
         </span>
       </div>
 
-      <div className="our_and_yourhome_text">
+      <div id="rooms" className="our_and_yourhome_text">
         <p className="our_acc">OUR ACCOMMODATION</p>
         <p className="rooms_text">Your Home Away From Home</p>
       </div>

@@ -5,7 +5,7 @@ import aboutUs2 from '../images/about-us-photo-2.webp';
 
 const AboutUs = () => {
   return (
-    <section className="about-us">
+    <section id="about" className="about-us">
       <div className="about-us-content">
         <div className="about-us-titles">
           <h2>About Us</h2>
