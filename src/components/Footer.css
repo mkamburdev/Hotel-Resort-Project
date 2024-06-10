@@ -39,7 +39,7 @@
 .facebook-icon{
     display: inline-block;
     margin-top: 1rem;
-    
+    cursor: pointer;
     padding-right: 1rem;
   font-size: 1.2rem;
 
@@ -47,6 +47,7 @@
 }
 .instagram-icon{
     font-size: 1.2rem;
+    cursor: pointer;
 }
 
 .land{
@@ -87,6 +88,7 @@
 .email-icon{
     font-size: 1.2rem;
     color: var(--color-white);
+    cursor: pointer;
 }
 .contact-icons{
     padding-right: 1rem;
