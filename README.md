@@ -1,4 +1,4 @@
-<div align="center">
+<div id="readme" align="center">
 <img src ="./src/images/logo.png" width="350px" alt="Hotel Resort Project">
 </div>
 
@@ -40,13 +40,13 @@ This web application is designed to provide users with detailed information abou
 
 In this project, our goal was to create a modern, user-friendly, and informative hotel website. We worked diligently to ensure that users have access to the most accurate and comprehensive information about our hotel.
 
-<p align="right">(<a href="#">back to top</a>)</p>
+<p align="right">(<a href="#readme">back to top</a>)</p>
 
 ## Screenshots
 
 <img src ="./src/images/screenshot.png" alt="Project Screenshot">
 
-<p align="right">(<a href="#">back to top</a>)</p>
+<p align="right">(<a href="#readme">back to top</a>)</p>
 
 ## Features
 
@@ -55,7 +55,7 @@ In this project, our goal was to create a modern, user-friendly, and informative
 - **User-Friendly Interface**: With a modern and intuitive interface, users can easily find the information they are looking for.
 - **Responsive Design**: The website is fully responsive to ensure the best experience on all devices.
 
-<p align="right">(<a href="#">back to top</a>)</p>
+<p align="right">(<a href="#readme">back to top</a>)</p>
 
 ## Technologies
 
@@ -64,7 +64,7 @@ In this project, our goal was to create a modern, user-friendly, and informative
 - HTML & CSS : Used for structural and visual design.
 - GIT : A version control system (GIT) was used for teamwork.
 
-<p align="right">(<a href="#">back to top</a>)</p>
+<p align="right">(<a href="#readme">back to top</a>)</p>
 
 ## Color Reference
 
@@ -79,20 +79,20 @@ In this project, our goal was to create a modern, user-friendly, and informative
 | Shark         | ![#212429](https://via.placeholder.com/15/212429?text=+) #212429 |
 | Spun Pearl         | ![#aaaab2](https://via.placeholder.com/15/aaaab2?text=+) #aaaab2 |
 
-<p align="right">(<a href="#">back to top</a>)</p>
+<p align="right">(<a href="#readme">back to top</a>)</p>
 
 ## Fonts
 - <a href="https://fonts.google.com/specimen/Cabin" target="blank">Cabin</a>
 - <a href="https://fonts.google.com/specimen/Lora" target="blank">Lora</a>
 - <a href="https://fontawesome.com/" target="blank">Font Awesome Icons</a>
 
-<p align="right">(<a href="#">back to top</a>)</p>
+<p align="right">(<a href="#readme">back to top</a>)</p>
 
 ## Photos
 - Unsplash
 - Pexels
 
-<p align="right">(<a href="#">back to top</a>)</p>
+<p align="right">(<a href="#readme">back to top</a>)</p>
 
 ## What we learned
 
@@ -102,13 +102,13 @@ In this project, our goal was to create a modern, user-friendly, and informative
 - Basic JavaScript: While developing the project, we learned the basic structures of JavaScript, data types, functions, and fundamental programming concepts, experiencing how JavaScript can be utilized in real-world projects.
 - Version Control (GIT): Throughout the project development, we learned to work collaboratively in different branches as a team, ensuring each work is done in an isolated manner. By merging different branches, we facilitated collaboration among team members and coordinated the project's development process.
 
-<p align="right">(<a href="#">back to top</a>)</p>
+<p align="right">(<a href="#readme">back to top</a>)</p>
 
 ## Demo
 
 [https://hotel-resort-project.vercel.app/](https://hotel-resort-project.vercel.app/)
 
-<p align="right">(<a href="#">back to top</a>)</p>
+<p align="right">(<a href="#readme">back to top</a>)</p>
 
 ## Contributions
 
@@ -122,4 +122,4 @@ In this project, our goal was to create a modern, user-friendly, and informative
 <a href="https://www.linkedin.com/in/mkambur/" target="blank"><img src="./src/images/linkedin.png" width="23px"></a>
 </div>
 
-<p align="right">(<a href="#">back to top</a>)</p>
+<p align="right">(<a href="#readme">back to top</a>)</p>
