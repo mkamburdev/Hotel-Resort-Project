@@ -1,3 +1,10 @@
+.nav-header {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background-color: white;
+}
+
 .navbar {
   height: 6.2rem;
   display: flex;
@@ -121,6 +128,15 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .nav-header {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background: rgba(255, 255, 255, 0.75);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+  }
+
   .navbar-menu-icon {
     display: none;
   }

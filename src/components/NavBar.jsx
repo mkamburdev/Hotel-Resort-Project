@@ -24,7 +24,7 @@ function NavBar() {
   };
 
   return (
-    <div>
+    <div className="nav-header">
       <section className="navbar">
         <div className="nav-logo">
           <a href="/index.html">
