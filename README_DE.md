@@ -8,11 +8,31 @@
 
 </div>
 
-<div align="center">
-  
-[**Bildschirmfotos**](#bildschirmfotos) | [**Funktionen**](#funktionen) | [**Technologien**](#technologien) | [**Farbreferenz**](#farbreferenz) | [**Schriftarten**](#schriftarten) | [**Fotos**](#fotos) | [**Was wir gelernt haben**](#was-wir-gelernt-haben) | [**Demo**](#demo) | [**Beiträge**](#beiträge)
-
+<div>
+<p align="center">
+    <a href="https://hotel-resort-project.vercel.app/">Demo ansehen</a>
+    ·
+    <a href="https://github.com/mkamburdev/Hotel-Resort-Project/issues">Fehler melden</a>
+    ·
+    <a href="https://github.com/mkamburdev/Hotel-Resort-Project/issues/new">Feature anfordern</a>
+  </p>
 </div>
+
+<!-- Inhaltsübersicht -->
+<details open="true">
+  <summary>Inhaltsübersicht</summary>
+  <ul>
+    <li><a href="#bildschirmfotos">Bildschirmfotos</a></li>
+    <li><a href="#funktionen">Funktionen</a></li>
+    <li><a href="#technologien">Technologien</a></li>
+    <li><a href="#farbreferenz">Farbreferenz</a></li>
+    <li><a href="#schriftarten">Schriftarten</a></li>
+    <li><a href="#fotos">Fotos</a></li>
+    <li><a href="#was-wir-gelernt-haben">Was wir gelernt haben</a></li>
+    <li><a href="#demo">Demo</a></li>
+    <li><a href="#beiträge">Beiträge</a></li>
+  </ul>
+</details>
 
 Dieses Repository enthält den gesamten Code für unser Hotel-Website-Projekt. Das Projekt wurde mit React, JavaScript, HTML und CSS entwickelt.
 
@@ -20,10 +40,13 @@ Diese Webanwendung soll den Benutzern detaillierte Informationen über Hotelzimm
 
 Unser Ziel bei diesem Projekt war es, eine moderne, benutzerfreundliche und informative Hotel-Website zu erstellen. Wir haben sorgfältig daran gearbeitet, sicherzustellen, dass die Benutzer Zugriff auf die genauesten und umfassendsten Informationen über unser Hotel haben.
 
+<p align="right">(<a href="#">zurück zum Anfang</a>)</p>
 
 ## Bildschirmfotos
 
 <img src ="./src/images/screenshot.png" alt="Project Screenshot">
+
+<p align="right">(<a href="#">zurück zum Anfang</a>)</p>
 
 ## Funktionen
 
@@ -32,6 +55,7 @@ Unser Ziel bei diesem Projekt war es, eine moderne, benutzerfreundliche und info
 - **Benutzerfreundliche Oberfläche**: Mit einer modernen und intuitiven Benutzeroberfläche können Benutzer leicht die gewünschten Informationen finden.
 - **Responsives Design**: Die Website ist vollständig responsiv, um das beste Erlebnis auf allen Geräten zu gewährleisten.
 
+<p align="right">(<a href="#">zurück zum Anfang</a>)</p>
 
 ## Technologien
 
@@ -39,6 +63,8 @@ Unser Ziel bei diesem Projekt war es, eine moderne, benutzerfreundliche und info
 - **JavaScript** : Wurde verwendet, um dynamische und interaktive Funktionen hinzuzufügen.
 - **HTML & CSS** : Wurden für das strukturelle und visuelle Design verwendet.
 - **GIT** : Ein Versionskontrollsystem (GIT) wurde für die Teamarbeit verwendet.
+
+<p align="right">(<a href="#">zurück zum Anfang</a>)</p>
 
 ## Farbreferenz
 
@@ -53,14 +79,20 @@ Unser Ziel bei diesem Projekt war es, eine moderne, benutzerfreundliche und info
 | Shark         | ![#212429](https://via.placeholder.com/15/212429?text=+) #212429 |
 | Spun Pearl         | ![#aaaab2](https://via.placeholder.com/15/aaaab2?text=+) #aaaab2 |
 
+<p align="right">(<a href="#">zurück zum Anfang</a>)</p>
+
 ## Schriftarten
 - <a href="https://fonts.google.com/specimen/Cabin" target="blank">Cabin</a>
 - <a href="https://fonts.google.com/specimen/Lora" target="blank">Lora</a>
 - <a href="https://fontawesome.com/" target="blank">Font Awesome Icons</a>
 
+<p align="right">(<a href="#">zurück zum Anfang</a>)</p>
+
 ## Fotos
 - Unsplash
 - Pexels
+
+<p align="right">(<a href="#">zurück zum Anfang</a>)</p>
 
 ## Was wir gelernt haben
 
@@ -70,10 +102,13 @@ Unser Ziel bei diesem Projekt war es, eine moderne, benutzerfreundliche und info
 - **Grundlegendes JavaScript**: Während der Entwicklung des Projekts haben wir die grundlegenden Strukturen von JavaScript, Datentypen, Funktionen und grundlegende Programmierkonzepte gelernt und erfahren, wie JavaScript in realen Projekten genutzt werden kann.
 - **Versionskontrolle (GIT)**: Im Laufe der Projektentwicklung haben wir gelernt, gemeinsam in verschiedenen Branches als Team zu arbeiten und sicherzustellen, dass jede Arbeit isoliert durchgeführt wird. Durch das Zusammenführen verschiedener Branches haben wir die Zusammenarbeit zwischen Teammitgliedern erleichtert und den Entwicklungsprozess des Projekts koordiniert.
 
+<p align="right">(<a href="#">zurück zum Anfang</a>)</p>
   
 ## Demo
 
 [https://hotel-resort-project.vercel.app/](https://hotel-resort-project.vercel.app/)
+
+<p align="right">(<a href="#">zurück zum Anfang</a>)</p>
 
 ## Beiträge
 
@@ -86,3 +121,5 @@ Unser Ziel bei diesem Projekt war es, eine moderne, benutzerfreundliche und info
                   <a href="https://github.com/mkamburdev/" target="blank"><img src="./src/images/github.png" width="23px"></a>
 <a href="https://www.linkedin.com/in/mkambur/" target="blank"><img src="./src/images/linkedin.png" width="23px"></a>
 </div>
+
+<p align="right">(<a href="#">zurück zum Anfang</a>)</p>
